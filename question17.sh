@@ -1,7 +1,6 @@
 cd git-practice-03
 git branch branch1
 git branch branch2
-mv dir1/dir2/foo dir1/
 touch dir3/bar_copy
 git add .
 git commit -m "main change"
