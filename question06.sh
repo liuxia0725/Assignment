@@ -1,2 +1,2 @@
 git add -u
-git commit
+git commit -m "submit comment"
