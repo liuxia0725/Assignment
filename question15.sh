@@ -6,3 +6,5 @@ git merge branch1
 git add dir1/file3
 git add file1
 git merge --continue -m "merge"
+cp dir1/file3 ../
+cp file1 ../
