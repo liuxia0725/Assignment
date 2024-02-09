@@ -13,7 +13,12 @@ git branch -d ready1
 git branch -d ready2
 git branch -d ready3
 git checkout -b update2 origin/update2
-git pull origin main:update1
+git checkout update2
+git merge main -m "update2"
+git checkout update1
+git merge main -m "update1"
+
+
 git pull origin main:update2
 git pull origin main
 
