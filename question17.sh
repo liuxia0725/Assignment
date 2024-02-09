@@ -16,7 +16,7 @@ cd dir1/dir2
 mv foo foo_modified
 cd ../..
 mv -f dir3/ dir1/
-mv dir1/dir3/bar dir1/newfile2
+mv dir1/dir3/bar dir1/dir3/newfile2
 git add .
 git commit
 cd ..
